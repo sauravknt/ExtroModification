@@ -1,0 +1,79 @@
+.warranty{
+    margin: 80px auto;
+    max-width: 90%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.warranty-col1{
+    margin-top: 300px;
+    margin-bottom: 200px;
+    flex-basis: 44%;
+    color: #676767;
+    padding-bottom: 40px;
+}
+.warranty-col img{
+   height: 70vh;
+   margin-top: 7rem;
+   width: 105%;
+}
+.warranty form input,  form textarea{
+    display: block;
+    width: 100%;
+    background: #ebecfe;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: none;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #04AA6D;
+  }
+  
+  .button1:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+  }
+  
+  .button2:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+   /*media*/
+   @media(max-width:708.021px){
+    .warranty{
+      flex-direction: column;
+    }
+    
+    .warranty-col img{
+      margin: auto;
+     width: 100%;
+     height: 50vh;
+    }
+    .warranty-col1{
+      margin-top: 100px;
+    }
+  }
